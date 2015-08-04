@@ -59,6 +59,7 @@ function getWinner(playerMove,computerMove) {
     else if (playerMove =="paper" && computerMove == "paper") { return "tie" }
     else if (playerMove =="scissors" && computerMove == "scissors") { return "tie" }
     else if (playerMove =="paper" && computerMove == "scissors") { return "computer" }
+    else if (playerMove =="rock" && computerMove == "scissors") { return "computer" }
     else if (playerMove =="paper" && computerMove == "rock") { return "player" }
     else if (playerMove =="scissors" && computerMove == "rock") { return "computer" }
     else if (playerMove =="scissors" && computerMove == "paper") { return "player" }
