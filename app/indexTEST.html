@@ -56,8 +56,7 @@ function getComputerMove(move) {
 
 function getWinner(playerMove,computerMove) {
     console.log(computerMove + " VS " + playerMove);
-    if (playerMove == "rock" && computerMove =="scissors") {
-    result = "player" }
+    if (playerMove == "rock" && computerMove =="scissors") { return "player"; }
     else if (playerMove =="rock" && computerMove == "paper") { return "computer"; }
     else if (playerMove == computerMove) { return "tie"; }
     else if (playerMove =="paper" && computerMove == "scissors") { return "computer"; }
